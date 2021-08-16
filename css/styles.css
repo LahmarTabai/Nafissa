@@ -166,3 +166,22 @@ span img:hover {
 .show {
     visibility: visible;
 }
+
+.fog {
+    animation: texte 0.5s linear infinite alternate;
+
+}
+
+@keyframes texte {
+    from{
+        opacity: 0;
+        transform: scale(2.0);
+        
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        color: #fff;
+    }
+    
+}
