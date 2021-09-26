@@ -1,0 +1,24 @@
+{
+  "name": "tabai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --no-babelrc src -w -d js --preset=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LahmarTabai/Nafissa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LahmarTabai/Nafissa/issues"
+  },
+  "homepage": "https://github.com/LahmarTabai/Nafissa#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
